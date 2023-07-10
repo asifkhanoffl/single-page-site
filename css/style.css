@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+#home {
+    background-color: #071952;
+}
+
+#services {
+    background-color: #331D2C;
+}
+
+#priceing {
+    background-color: #1A5D1A;
+}
+
+#product {
+    background-color: #4A55A2;
+}
+
+#contact {
+    background-color: #4C4B16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #071952;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    display: block;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+ul li {
+    margin-left: 100px;
+    list-style: none;
+    display: inline-block;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+#services,
+#priceing,
+#product,
+#contact {
+    padding: 75px;
+}
+
+#textSearch {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    gap: 5px;
+}
+
+.search img {
+    height: 35px;
+    width: 35px;
+}
+
+.contact-box {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 700px;
+    color: black;
+}
+
+.contact-box table {
+    width: 100%;
+}
+
+.contact-box table td {
+    padding: 10px 20px;
+}
+
+.contact-box table td input {
+    color: black;
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+}
+
+.contact-box table td input::placeholder {
+    color: black;
+}
+
+.contact-box table td label,
+h2 {
+    color: white;
+}
+
+.contact-box h2 {
+    font-weight: bold;
+}
+
+.textArea td label,
+.textArea td textarea {
+    display: block;
+}
+
+.textArea td textarea {
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    background-color: #f7f7f7;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 16px;
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.btnsend {
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #071952;
+}
